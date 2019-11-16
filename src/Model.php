@@ -3,6 +3,7 @@
 namespace Thomisticus\NestedAttributes;
 
 use Illuminate\Database\Eloquent\Model as Eloquent;
+use Thomisticus\NestedAttributes\Traits\HasNestedAttributes;
 
 abstract class Model extends Eloquent
 {
@@ -15,5 +16,5 @@ abstract class Model extends Eloquent
      *
      * @see Traits\HasNestedAttributes
      */
-    use Traits\HasNestedAttributes;
+    use HasNestedAttributes;
 }
