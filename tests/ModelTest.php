@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 /**
  * Tests for the Model.
  *
- * @author Piotr Krajewski <mits87@gmail.com>
+ * @author Piotr Krajewski <igor.sgm@gmail.com>
  * @license https://github.com/esensi/model/blob/master/license.md MIT License
  */
 class ModelTest extends TestCase

@@ -23,7 +23,7 @@ vendor/
 Via Composer
 
 ``` bash
-$ composer require mits87/eloquent-nested-attributes
+$ composer require igorsgm/eloquent-nested-attributes
 ```
 
 ## Usage
@@ -139,7 +139,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF_CONDUCT
 
 ## Security
 
-If you discover any security related issues, please email mits87@gmail.com instead of using the issue tracker.
+If you discover any security related issues, please email igor.sgm@gmail.com instead of using the issue tracker.
 
 ## Credits
 
@@ -150,13 +150,13 @@ If you discover any security related issues, please email mits87@gmail.com inste
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/mits87/eloquent-nested-attributes.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/igorsgm/eloquent-nested-attributes.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/mits87/eloquent-nested-attributes/master.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/mits87/eloquent-nested-attributes.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/igorsgm/eloquent-nested-attributes/master.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/igorsgm/eloquent-nested-attributes.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/mits87/eloquent-nested-attributes
-[link-travis]: https://travis-ci.org/mits87/eloquent-nested-attributes
-[link-downloads]: https://packagist.org/packages/mits87/eloquent-nested-attributes
-[link-author]: https://github.com/mits87
+[link-packagist]: https://packagist.org/packages/igorsgm/eloquent-nested-attributes
+[link-travis]: https://travis-ci.org/igorsgm/eloquent-nested-attributes
+[link-downloads]: https://packagist.org/packages/igorsgm/eloquent-nested-attributes
+[link-author]: https://github.com/igorsgm
 [link-contributors]: ../../contributors

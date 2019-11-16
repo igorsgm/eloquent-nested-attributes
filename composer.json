@@ -6,7 +6,7 @@
         "Laravel", "Lumen", "Eloquent", "Nested Attributes"
     ],
     "version": "0.0.7",
-    "homepage": "https://github.com/mits87/eloquent-nested-attributes",
+    "homepage": "https://github.com/igorsgm/eloquent-nested-attributes",
     "license": "MIT",
     "authors": [
         {
