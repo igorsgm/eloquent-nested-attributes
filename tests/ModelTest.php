@@ -39,7 +39,7 @@ class ModelTest extends TestCase
             class_uses_recursive(get_class($this->model)) : class_uses(get_class($this->model));
 
         // Check Model uses the Validating trait
-        $this->assertContains('Eloquent\NestedAttributes\Traits\HasNestedAttributesTrait', $traits);
+        $this->assertContains('Eloquent\NestedAttributes\Traits\HasNestedAttributes', $traits);
     }
 }
 

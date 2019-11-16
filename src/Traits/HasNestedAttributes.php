@@ -11,7 +11,7 @@ use Illuminate\Database\Eloquent\Relations\MorphOne;
 use Illuminate\Support\Facades\DB;
 use Psr\Log\InvalidArgumentException;
 
-trait HasNestedAttributesTrait
+trait HasNestedAttributes
 {
     /**
      * Defined nested attributes
@@ -54,6 +54,7 @@ trait HasNestedAttributesTrait
             foreach ($this->nested as $attr) {
                 if (isset($attributes[$attr])) {
                     $this->acceptNestedAttributesFor[$attr] = $attributes[$attr];
+                    unset($attributes[$attr]);
                 }
             }
 
@@ -157,7 +158,7 @@ trait HasNestedAttributesTrait
         }
 
         if ($related = $relation->create($params)) {
-            $belongs = $relation->getRelation();
+            $belongs = $relation->getRelationName();
             $this->$belongs()->associate($related);
             parent::save();
 
