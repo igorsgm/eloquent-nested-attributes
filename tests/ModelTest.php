@@ -1,6 +1,6 @@
 <?php
 
-use Eloquent\NestedAttributes\Model;
+use Thomisticus\NestedAttributes\Model;
 use PHPUnit\Framework\TestCase;
 
 /**
@@ -39,7 +39,7 @@ class ModelTest extends TestCase
             class_uses_recursive(get_class($this->model)) : class_uses(get_class($this->model));
 
         // Check Model uses the Validating trait
-        $this->assertContains('Eloquent\NestedAttributes\Traits\HasNestedAttributes', $traits);
+        $this->assertContains('Thomisticus\NestedAttributes\Traits\HasNestedAttributes', $traits);
     }
 }
 

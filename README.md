@@ -1,4 +1,4 @@
-# eloquent-nested-attributes
+# laravel-nested-attributes
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -23,7 +23,7 @@ vendor/
 Via Composer
 
 ``` bash
-$ composer require igorsgm/eloquent-nested-attributes
+$ composer require thomisticus/laravel-nested-attributes
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ $ composer require igorsgm/eloquent-nested-attributes
 ``` php
 namespace App;
 
-use Eloquent\NestedAttributes\Model;
+use Thomisticus\NestedAttributes\Model;
 
 class Post extends Model
 {
@@ -57,7 +57,7 @@ or
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use Eloquent\NestedAttributes\Traits\HasNestedAttributesTrait;
+use Thomisticus\NestedAttributes\Traits\HasNestedAttributesTrait;
 
 class Post extends Model
 {
@@ -150,13 +150,13 @@ If you discover any security related issues, please email igor.sgm@gmail.com ins
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/igorsgm/eloquent-nested-attributes.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/thomisticus/laravel-nested-attributes.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/igorsgm/eloquent-nested-attributes/master.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/igorsgm/eloquent-nested-attributes.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/thomisticus/laravel-nested-attributes/master.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/thomisticus/laravel-nested-attributes.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/igorsgm/eloquent-nested-attributes
-[link-travis]: https://travis-ci.org/igorsgm/eloquent-nested-attributes
-[link-downloads]: https://packagist.org/packages/igorsgm/eloquent-nested-attributes
-[link-author]: https://github.com/igorsgm
+[link-packagist]: https://packagist.org/packages/thomisticus/laravel-nested-attributes
+[link-travis]: https://travis-ci.org/thomisticus/laravel-nested-attributes
+[link-downloads]: https://packagist.org/packages/thomisticus/laravel-nested-attributes
+[link-author]: https://github.com/thomisticus
 [link-contributors]: ../../contributors

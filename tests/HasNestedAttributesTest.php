@@ -1,9 +1,9 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Eloquent\NestedAttributes\Model;
+use Thomisticus\NestedAttributes\Model;
 
-class HasNestedAttributesTraitTest extends TestCase
+class HasNestedAttributesTest extends TestCase
 {
     /**
      * Set Up and Prepare Tests.
@@ -44,7 +44,7 @@ class HasNestedAttributesTraitTest extends TestCase
         $this->assertEquals([
             'model_bar'  => ['text' => 'bar'],
             'model_foos' => [
-                ['text' => 'foo1'], 
+                ['text' => 'foo1'],
                 ['text' => 'foo2']
             ]
         ], $this->model->getAcceptNestedAttributesFor());
@@ -55,7 +55,7 @@ class ModelEloquentStub extends Model {
     protected $table    = 'stubs';
     protected $fillable = ['title'];
     protected $nested   = ['model_bar', 'model_foos' ];
-    
+
     public function modelBar() {
         return $this->hasOne(ModelBarStub::class);
     }
@@ -67,7 +67,7 @@ class ModelEloquentStub extends Model {
 
 class ModelBarStub extends Model {
     protected $fillable = ['text'];
-    
+
     public function parent() {
         return $this->belongsTo(ModelEloquentStub::class);
     }

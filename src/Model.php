@@ -1,6 +1,6 @@
 <?php
 
-namespace Eloquent\NestedAttributes;
+namespace Thomisticus\NestedAttributes;
 
 use Illuminate\Database\Eloquent\Model as Eloquent;
 
