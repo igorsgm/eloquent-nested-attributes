@@ -1,6 +1,6 @@
 <?php
 
-namespace Thomisticus\MappableModels\Traits;
+namespace Eloquent\NestedAttributes\Traits;
 
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
