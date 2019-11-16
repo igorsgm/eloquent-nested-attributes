@@ -2,7 +2,6 @@
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
-[![Build Status][ico-travis]][link-travis]
 [![Total Downloads][ico-downloads]][link-downloads]
 
 Nested attributes allow you to save attributes on associated records through the parent. By default nested attribute updating is turned off and you can enable it using the $nested attribute. When you enable nested attributes an attribute writer is defined on the model.
@@ -123,19 +122,11 @@ to delete nested row you should pass `_destroy` attribute:
 ```
 
 
-## Change log
-
-Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
-
 ## Testing
 
 ``` bash
 $ composer test
 ```
-
-## Contributing
-
-Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) for details.
 
 ## Security
 
@@ -143,7 +134,8 @@ If you discover any security related issues, please email igor.sgm@gmail.com ins
 
 ## Credits
 
-- [Piotr Krajewski][link-author]
+- [Igor Moraes][link-author]
+- [Piotr Krajewski][link-second-author]
 - [All Contributors][link-contributors]
 
 ## License
@@ -152,11 +144,10 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 
 [ico-version]: https://img.shields.io/packagist/v/thomisticus/laravel-nested-attributes.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/thomisticus/laravel-nested-attributes/master.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/thomisticus/laravel-nested-attributes.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/thomisticus/laravel-nested-attributes
-[link-travis]: https://travis-ci.org/thomisticus/laravel-nested-attributes
 [link-downloads]: https://packagist.org/packages/thomisticus/laravel-nested-attributes
-[link-author]: https://github.com/thomisticus
+[link-author]: https://github.com/igorsgm
+[link-second-author]: https://github.com/mits87
 [link-contributors]: ../../contributors
